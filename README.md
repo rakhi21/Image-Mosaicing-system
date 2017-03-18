@@ -27,5 +27,5 @@ Once the source pixels have been mapped onto the final composite surface, the ne
 
 In the first module of this project after acquisition of images, for feature detection we took 3 algorithms to find the coners in the image (i.e FAST, Minimum eigen value and  harris) and compared them. In this module i had worked on FAST corner detection algorithm. On the basis of comparison we found that harris corner detection is best so we continued the next phase on the basis of outcome from harris corner detection algorithm.
 
-In the second module we are matching the detected features of overlapping images using RANSAC algorithm. In this module i had worked on estimation of homography using ComputeH method. 
+In the second module we have matched the detected features of overlapping images using RANSAC algorithm. In this module i had worked on estimation of homography using ComputeH method. 
 
