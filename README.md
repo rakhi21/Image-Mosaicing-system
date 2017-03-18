@@ -26,5 +26,6 @@ The next step after feature extraction is the matching of the features. Features
 Once the source pixels have been mapped onto the final composite surface, the next step is to blend them in order to create an attractive looking panorama. Image blending is the technique which modifies the image gray levels in the vicinity of a boundary to obtain a smooth transition between images by removing these seams and creating a blended image by determining how a pixel in an overlapping area should be presented.
 
 In the first module of this project after acquisition of images, for feature detection we took 3 algorithms to find the coners in the image (i.e FAST, Minimum eigen value and  harris) and compared them. In this module i had worked on FAST corner detection algorithm. On the basis of comparison we found that harris corner detection is best so we continued the next phase on the basis of outcome from harris corner detection algorithm.
+
 In the second module we are matching the detected features of overlapping images using RANSAC algorithm. In this module i had worked on estimation of homography using ComputeH method. 
 
