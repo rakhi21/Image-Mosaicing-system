@@ -16,6 +16,7 @@ Image mosaicing is a process of assembling multiple overlapping images of the sa
 1. Image Acquisition
 2. Image Registration 
 3. Image Blending
+
 Different image acquisition techniques are image acquisition by camera rotations, image acquisition by camera translations, and image acquisition by a hand held camera.
 Image Registration includes feature detection and extraction, feature matching and transforming the images with the help of a transformation model. The feature detection step can be executed in a number of methods by selecting various features in the images which are unique and robust. Out of all the feature detected, the corners are most versatile and gives the very good results. The corner detection method used in this paper is Harris corner detection method which used the Harris-Stephens algorithm to detect the corners in the given image.
 The next step after feature extraction is the matching of the features. Features of two images are matched and then mapped accordingly. This Mapping of features of two different projections having same center of projection is called homography. The algorithm used for homography in this project is RANSAC(Random sample Consensus Algorithm). It is mapping between two spaces which is often used to represent the correspondence between two images of the same scene. It is widely used for the project where multiple images are taken from a rotating camera center ultimately warped together to produce a panoramic view.
